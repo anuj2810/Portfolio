@@ -53,9 +53,9 @@ const sections = [
     icon: <FaGraduationCap />,
     content: (
       <ul className="list-disc pl-5 space-y-2">
-        <li>B.Tech in CSE -AKTU University (2022-2026)</li>
-        <li>12th - The Ideal New Star English School ( PCM )</li>
-        <li>10th - Mahatama J.F. Public School </li>
+        <li>B.Tech in CSE : AKTU University (2022-2026)</li>
+        <li>12th ( Senior Secondary ) : The Ideal New Star English School ( PCM )</li>
+        <li>10th ( Secondary ) : Mahatama J.F. Public School </li>
       </ul>
     ),
   },
@@ -65,8 +65,8 @@ const sections = [
     content: (
       <ul className="list-disc pl-5 space-y-2">
         <li>Programming-Language : C, C++, Python  </li>
-        <li>Frontend : HTML, CSS, React.js, Tailwind CSS</li>
-        <li>Backend : Flask, Express.js, Electron.js</li>
+        <li>Frontend : HTML, CSS</li>
+        <li>Backend : Flask Framework </li>
         <li>Database : MongoDB, MySQL</li>
         <li>Soft-Skills : Effective Communicator, Critical-Thinking, Problem-Solving, Decision Making </li>
 

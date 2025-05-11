@@ -24,14 +24,14 @@ const skills = [
   { name: "React", icon: <SiReact className="text-cyan-400" />, type: "Frontend Library", doc: "https://react.dev", summary: "Component-based UI development library." },
   // { name: "Next.js", icon: <SiNextdotjs className="text-black dark:text-white" />, type: "React Framework", doc: "https://nextjs.org/docs", summary: "Production-grade React framework for SSR and SSG." },
   // { name: "Redux", icon: <SiRedux className="text-purple-500" />, type: "State Management", doc: "https://redux.js.org/", summary: "Manages application state in React apps." },
-  { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" />, type: "CSS Framework", doc: "https://tailwindcss.com/docs", summary: "Utility-first CSS for rapid UI development." },
+  //{ name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" />, type: "CSS Framework", doc: "https://tailwindcss.com/docs", summary: "Utility-first CSS for rapid UI development." },
   //{ name: "TypeScript", icon: <SiTypescript className="text-blue-600" />, type: "Programming Language", doc: "https://www.typescriptlang.org/docs/", summary: "Superset of JavaScript that adds static typing." },
   
   // Backend Development
 //  { name: "Node.js", icon: <SiNodedotjs className="text-green-600" />, type: "Backend Runtime", doc: "https://nodejs.org/en/docs", summary: "Runs JavaScript on the server." },
   { name: "Flask", icon: <SiFlask className="text-black" />, type: "Web Framework", doc: "https://flask.palletsprojects.com/en/2.1.x/", summary: "Python micro framework for building web apps." },
-  { name: "Express", icon: <SiExpress className="text-gray-300" />, type: "Backend Framework", doc: "https://expressjs.com/", summary: "Minimalist web framework for Node.js." },
-  { name: "FastAPI", icon: <SiFastapi className="text-teal-400" />, type: "Python API Framework", doc: "https://fastapi.tiangolo.com/", summary: "Fast and modern web framework for Python APIs." },
+  //{ name: "Express", icon: <SiExpress className="text-gray-300" />, type: "Backend Framework", doc: "https://expressjs.com/", summary: "Minimalist web framework for Node.js." },
+  //{ name: "FastAPI", icon: <SiFastapi className="text-teal-400" />, type: "Python API Framework", doc: "https://fastapi.tiangolo.com/", summary: "Fast and modern web framework for Python APIs." },
   { name: "Electron.js", icon: <SiElectron className="text-blue-400" />, type: "Desktop App Framework", doc: "https://www.electronjs.org/", summary: "Framework for building cross-platform desktop apps using JavaScript, HTML, and CSS." },
 
 
@@ -51,19 +51,20 @@ const skills = [
   // Databases
   { name: "MongoDB", icon: <SiMongodb className="text-green-600" />, type: "Database", doc: "https://docs.mongodb.com/", summary: "NoSQL database for JSON-like documents." },
   { name: "MySQL", icon: <SiMysql className="text-blue-600" />, type: "Database", doc: "https://dev.mysql.com/doc/", summary: "Relational database management system for structured data." },
-  { name: "NoSQL", icon: <SiNosql className="text-green-600" />, type: "Database", doc: "https://www.mongodb.com/nosql-explained", summary: "Non-relational database for unstructured and flexible data." },
+  //{ name: "NoSQL", icon: <SiNosql className="text-green-600" />, type: "Database", doc: "https://www.mongodb.com/nosql-explained", summary: "Non-relational database for unstructured and flexible data." },
 
   // Data Science and AI
+  { name: "Scikit-learn", icon: <SiScikitlearn className="text-orange-400" />, type: "ML Library", doc: "https://scikit-learn.org/stable/documentation.html", summary: "Machine learning tools for predictive data analysis." },
   { name: "Pandas", icon: <SiPandas className="text-green-600" />, type: "Data Analysis Library", doc: "https://pandas.pydata.org/docs/", summary: "Handles and analyzes structured data efficiently." },
   { name: "NumPy", icon: <SiNumpy className="text-blue-400" />, type: "Numerical Library", doc: "https://numpy.org/doc/", summary: "Supports large, multi-dimensional arrays and matrices." },
-  { name: "Scikit-learn", icon: <SiScikitlearn className="text-orange-400" />, type: "ML Library", doc: "https://scikit-learn.org/stable/documentation.html", summary: "Machine learning tools for predictive data analysis." },
   { name: "OpenAI", icon: <SiOpenai className="text-indigo-500" />, type: "AI API Provider", doc: "https://platform.openai.com/docs", summary: "AI-powered language models and generative tools." },
 
   // Version Control and APIs
   { name: "Git", icon: <SiGit className="text-red-500" />, type: "Version Control", doc: "https://git-scm.com/doc", summary: "Tracks code changes and supports team collaboration." },
-  { name: "REST APIs", icon: <SiPostman className="text-orange-400" />, type: "API Design", doc: "https://learning.postman.com/docs/getting-started/introduction/", summary: "Standardized way for frontend and backend to communicate." },
-  { name: "VSCode", icon: <SiVisualstudiocode className="text-blue-500" />, type: "Code Editor", doc: "https://code.visualstudio.com/docs", summary: "Popular code editor with a rich ecosystem of extensions and tools." },
   { name: "GitHub", icon: <SiGithub className="text-neutral-600 dark:text-neutral-300" />, type: "Version Control", doc: "https://docs.github.com/en/github", summary: "Web-based hosting service for version control using Git." },
+  //  { name: "REST APIs", icon: <SiPostman className="text-orange-400" />, type: "API Design", doc: "https://learning.postman.com/docs/getting-started/introduction/", summary: "Standardized way for frontend and backend to communicate." },
+  { name: "VSCode", icon: <SiVisualstudiocode className="text-blue-500" />, type: "Code Editor", doc: "https://code.visualstudio.com/docs", summary: "Popular code editor with a rich ecosystem of extensions and tools." },
+
 
 ];
 
@@ -71,13 +72,14 @@ export default function SkillsSection() {
   const [selectedSkill, setSelectedSkill] = useState(null);
 
   const categories = [
-    { title: "Frontend Development", skills: skills.slice(0, 5) },
-    { title: "Backend Development", skills: skills.slice(5, 9) },
+    { title: " Programming Languages  ", skills: skills.slice(6, 9) },
+    { title: "Frontend Development", skills: skills.slice(0, 4) },
+    { title: "Backend Development", skills: skills.slice(4, 6) },
   //  { title: "DevOps and Hosting", skills: skills.slice(9, 12) },
-    { title: "Languages and Tools", skills: skills.slice(9, 12) },
-    { title: "Database", skills: skills.slice(12, 15) },
-    { title: "Data Science and AI", skills: skills.slice(15, 19) },
-    { title: "Version Control and APIs", skills: skills.slice(19, 23) }
+  
+    { title: "Database", skills: skills.slice(9, 11) },
+    { title: "Data Science and AI", skills: skills.slice(11, 15) },
+    { title: "Tools  and Technology", skills: skills.slice(15, 18) }
   ];
 
   return (

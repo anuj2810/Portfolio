@@ -101,9 +101,10 @@ const Profile = () => {
           </div>
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold text-indigo-600">📖 Secondary (10th Grade)</h3>
-            <p className="text-gray-600 dark:text-gray-400">Mahatama J.F. Public School, Varanasi<br />
-            Board: CBSE <br />
-            Passing Year : 2019
+            <p className="text-gray-600 dark:text-gray-400">
+              School : Mahatama J.F. Public School, Varanasi<br />
+              Board: CBSE <br />
+              Passing Year : 2019
           </p>
           </div>
         </div>
@@ -119,24 +120,25 @@ const Profile = () => {
         <h2 className="text-3xl font-semibold text-indigo-600 mb-8 text-center"> 💻 Skills & Technologies</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {[
-              { name: "HTML5", icon: <SiHtml5 />, level: "80%" },
-              { name: "CSS", icon: <FaCss3Alt />, level: "85%" },
-              { name: "JavaScript", icon: <FaJsSquare />, level: "70%" },
-              { name: "Tailwind CSS", icon: <SiTailwindcss />, level: "60%" },
-              { name: "React", icon: <FaReact />, level: "85%" },
               { name: "C", icon: <SiC />, level: "80%" },
-              { name: "C++", icon: <SiCplusplus />, level: "90%" },
-              { name: "Python", icon: <FaPython />, level: "85%" },
+              { name: "C++", icon: <SiCplusplus />, level: "80%" },
+              { name: "Python", icon: <FaPython />, level: "75%" },            
+              { name: "HTML5", icon: <SiHtml5 />, level: "70%" },
+              { name: "CSS", icon: <FaCss3Alt />, level: "75%" },
+              { name: "JavaScript", icon: <FaJsSquare />, level: "60%" },
+              //{ name: "Tailwind CSS", icon: <SiTailwindcss />, level: "60%" },
+              { name: "React", icon: <FaReact />, level: "65%" },
+              { name: "Flask", icon: <SiFlask />, level: "60%" },
+      
               
 //              { name: "Node.js", icon: <FaNodeJs />, level: "80%" },
               
-              { name: "Database", icon: <FaDatabase />, level: "70%" },
+              //{ name: "Database", icon: <FaDatabase />, level: "70%" },
               
-              { name: "MongoDB", icon: <SiMongodb />, level: "70%" },
-              { name: "MySQL", icon: <SiMysql />, level: "75%" },
+              { name: "MongoDB", icon: <SiMongodb />, level: "60%" },
+              { name: "MySQL", icon: <SiMysql />, level: "65%" },
 //              { name: "Server", icon: <FaServer />, level: "75%" },
-              { name: "FastAPI", icon: <SiFastapi />, level: "70%" },
-              { name: "Flask", icon: <SiFlask />, level: "70%" },
+              //{ name: "FastAPI", icon: <SiFastapi />, level: "70%" },
 //              { name: "Vercel", icon: <SiVercel />, level: "90%" },
 //              { name: "Netlify", icon: <SiNetlify />, level: "90%" },
 //            { name: "Docker", icon: <FaDocker />, level: "80%" },
@@ -147,12 +149,12 @@ const Profile = () => {
 //              { name: "Heroku", icon: <SiHeroku />, level: "85%" },
 //              { name: "Render", icon: <SiRender />, level: "80%" },
 //              { name: "Railway", icon: <SiRailway />, level: "75%" },
-              { name: "Scikit-learn", icon: <SiScikitlearn />, level: "80%" },
-              { name: "NumPy", icon: <SiNumpy />, level: "85%" },
-              { name: "Pandas", icon: <SiPandas />, level: "85%" },
-              { name: "OpenAI", icon: <SiOpenai />, level: "80%" },
-              { name: "Git", icon: <FaGit />, level: "75%" },
-              { name: "GitHub", icon: <FaGithub />, level: "80%" },
+              { name: "Scikit-learn", icon: <SiScikitlearn />, level: "60%" },
+              { name: "NumPy", icon: <SiNumpy />, level: "65%" },
+              { name: "Pandas", icon: <SiPandas />, level: "55%" },
+              { name: "OpenAI", icon: <SiOpenai />, level: "60%" },
+              { name: "Git", icon: <FaGit />, level: "65%" },
+              { name: "GitHub", icon: <FaGithub />, level: "60%" },
             ].map(({ name, icon, level }) => (
             <div className="skill-card bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg flex items-center space-x-4">
               <div className="text-4xl text-indigo-600">{icon}</div>
