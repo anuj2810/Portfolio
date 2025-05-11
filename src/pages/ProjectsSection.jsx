@@ -26,7 +26,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A clean and modern personal portfolio built using HTML, CSS, and JavaScript, featuring smooth interactions and a responsive layout.",
     image: "../images/Portfolio-Website.jpg",
-    link: "https://yourportfolio.com",
+    link: "https://github.com/anuj2810/Portfolio.git",
     specs: "Tech Stack: HTML, CSS, JavaScript\nFeatures: Light/Dark mode toggle, Animated transitions, Fully responsive design, Smooth scroll navigation"
   },
   {
