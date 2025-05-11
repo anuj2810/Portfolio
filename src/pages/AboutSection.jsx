@@ -19,7 +19,7 @@ import profilePic from "../assets/self5.jpg"; // ✅ make sure yahi image hai tu
 
 const sections = [
   {
-    title: "🙋‍♂️ Personal Info",
+    title: " Personal Info",
     icon: <FaUser />,
     content: (
       <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
@@ -49,7 +49,7 @@ const sections = [
   },
 
   {
-    title: "🎓 Education",
+    title: " Education",
     icon: <FaGraduationCap />,
     content: (
       <ul className="list-disc pl-5 space-y-2">
@@ -60,7 +60,7 @@ const sections = [
     ),
   },
   {
-    title: "💻 Skills",
+    title: " Skills",
     icon: <FaCode />,
     content: (
       <ul className="list-disc pl-5 space-y-2">
@@ -74,7 +74,7 @@ const sections = [
     ),
     },
   {
-    title: "🎮 Hobbies",
+    title: " Hobbies",
     icon: <FaHeart />,
     content: (
       <ul className="list-disc pl-5 space-y-2">
@@ -88,7 +88,7 @@ const sections = [
     ),
   },
   {
-    title: " 🏆Achievements and Certifications",
+    title: " Achievements and Certifications",
     icon: <FaAward />,
     content: (
       <ul className="list-disc pl-5 space-y-2">
@@ -101,7 +101,7 @@ const sections = [
     ),
   },
   {
-    title: "👨Projects",
+    title: "Projects",
     icon: <FaFolderOpen />,
     content: (
       <ul className="list-disc pl-5 space-y-2">
@@ -115,7 +115,7 @@ const sections = [
     ),
   },
   {
-    title: " 🧑‍💻 Experience ",
+    title: "  Experience ",
     icon: <FaBriefcase />,
     content: (
       <ul className="list-disc pl-5 space-y-2">
