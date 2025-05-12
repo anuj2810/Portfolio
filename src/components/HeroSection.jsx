@@ -14,7 +14,7 @@ import {
   SiHackerrank,
 } from "react-icons/si";
 import hero_img from "../assets/hero.jpg";
-import resumePDF from "../assets/AnujShubhamArya_Resume.pdf";
+import resumePDF from "../assets/Anuj_Resume.pdf";
 
 
 const codingProfiles = [

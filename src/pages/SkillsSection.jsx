@@ -7,7 +7,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
-  SiHtml5, SiCss3, SiJavascript, SiReact,  SiExpress,
+  SiHtml5, SiCss3, SiJavascript, SiReact,
   SiMongodb, SiGit, SiFlask, 
   SiScikitlearn, SiNumpy, SiPandas, SiOpenai,
   SiPython, SiCplusplus,
