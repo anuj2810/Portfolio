@@ -8,12 +8,14 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   SiHtml5, SiCss3, SiJavascript, SiReact,  SiExpress,
-  SiMongodb, SiTailwindcss, SiGit, SiPostman, 
-   SiFastapi, SiFlask, 
-   SiScikitlearn, SiNumpy, SiPandas, SiOpenai,
-   SiPython, SiCplusplus,SiCplusplus as SiC, SiPostman as SiVisualstudiocode,
-  SiGithub,SiMysql,SiMysql as SiNosql, SiElectron
+  SiMongodb, SiGit, SiFlask, 
+  SiScikitlearn, SiNumpy, SiPandas, SiOpenai,
+  SiPython, SiCplusplus,
+  SiGithub,SiMysql, SiElectron
 } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
+import { SiC } from "react-icons/si";
+
 import { FiExternalLink } from "react-icons/fi";
 
 const skills = [
@@ -63,7 +65,7 @@ const skills = [
   { name: "Git", icon: <SiGit className="text-red-500" />, type: "Version Control", doc: "https://git-scm.com/doc", summary: "Tracks code changes and supports team collaboration." },
   { name: "GitHub", icon: <SiGithub className="text-neutral-600 dark:text-neutral-300" />, type: "Version Control", doc: "https://docs.github.com/en/github", summary: "Web-based hosting service for version control using Git." },
   //  { name: "REST APIs", icon: <SiPostman className="text-orange-400" />, type: "API Design", doc: "https://learning.postman.com/docs/getting-started/introduction/", summary: "Standardized way for frontend and backend to communicate." },
-  { name: "VSCode", icon: <SiVisualstudiocode className="text-blue-500" />, type: "Code Editor", doc: "https://code.visualstudio.com/docs", summary: "Popular code editor with a rich ecosystem of extensions and tools." },
+  { name: "VSCode", icon: <VscVscode className="text-blue-500" />, type: "Code Editor", doc: "https://code.visualstudio.com/docs", summary: "Popular code editor with a rich ecosystem of extensions and tools." },
 
 
 ];

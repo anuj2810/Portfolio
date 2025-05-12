@@ -7,10 +7,12 @@ import profilePic from "../assets/profile.jpg"; // Your profile image path
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaReact,  FaGit, FaCss3Alt, FaJsSquare, FaDatabase } from "react-icons/fa";
+import { FaReact,  FaGit, FaCss3Alt, FaJsSquare,  } from "react-icons/fa";
 import {  FaPython } from "react-icons/fa";
-import { SiTailwindcss, SiCplusplus,SiMysql,SiMongodb,SiCplusplus as SiC,   SiFastapi, SiFlask,  SiScikitlearn, SiNumpy, SiPandas, SiHtml5, SiOpenai } from "react-icons/si";
+import {  SiCplusplus,SiMysql,SiMongodb, SiFlask,  SiScikitlearn, SiNumpy, SiPandas, SiHtml5, SiOpenai } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
+import { VscVscode } from "react-icons/vsc";
+import { SiC } from "react-icons/si";
 const Profile = () => {
   return (
     <div className="bg-gray-50 dark:bg-gray-900 min-h-screen py-12 px-6 sm:px-8 md:px-16">
@@ -125,7 +127,7 @@ const Profile = () => {
               { name: "Python", icon: <FaPython />, level: "75%" },            
               { name: "HTML5", icon: <SiHtml5 />, level: "70%" },
               { name: "CSS", icon: <FaCss3Alt />, level: "75%" },
-              { name: "JavaScript", icon: <FaJsSquare />, level: "60%" },
+              { name: "JavaScript", icon: <FaJsSquare />, level: "50%" },
               //{ name: "Tailwind CSS", icon: <SiTailwindcss />, level: "60%" },
               { name: "React", icon: <FaReact />, level: "65%" },
               { name: "Flask", icon: <SiFlask />, level: "60%" },
@@ -135,8 +137,8 @@ const Profile = () => {
               
               //{ name: "Database", icon: <FaDatabase />, level: "70%" },
               
-              { name: "MongoDB", icon: <SiMongodb />, level: "60%" },
-              { name: "MySQL", icon: <SiMysql />, level: "65%" },
+              { name: "MongoDB", icon: <SiMongodb />, level: "50%" },
+              { name: "MySQL", icon: <SiMysql />, level: "55%" },
 //              { name: "Server", icon: <FaServer />, level: "75%" },
               //{ name: "FastAPI", icon: <SiFastapi />, level: "70%" },
 //              { name: "Vercel", icon: <SiVercel />, level: "90%" },
@@ -154,7 +156,9 @@ const Profile = () => {
               { name: "Pandas", icon: <SiPandas />, level: "55%" },
               { name: "OpenAI", icon: <SiOpenai />, level: "60%" },
               { name: "Git", icon: <FaGit />, level: "65%" },
-              { name: "GitHub", icon: <FaGithub />, level: "60%" },
+              { name: "GitHub", icon: <FaGithub />, level: "60%" },              
+              { name: "VS Code", icon: <VscVscode />, level: "60%" },
+              
             ].map(({ name, icon, level }) => (
             <div className="skill-card bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg flex items-center space-x-4">
               <div className="text-4xl text-indigo-600">{icon}</div>
