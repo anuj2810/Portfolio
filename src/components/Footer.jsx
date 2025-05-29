@@ -214,7 +214,7 @@ export default function Footer() {
         <a href="mailto:aryan07vns@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition"><FaEnvelope size={20} /></a>
         <a href="https://github.com/anuj2810" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition"><FaGithub size={20} /></a>
         <a href="https://linkedin.com/in/imanuj-arya/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition"><FaLinkedin size={20} /></a>
-        <a href="https://x.com/aryan07mzp" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition"><FaXTwitter size={20} /></a>
+        <a href="https://x.com/aryan07vns" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition"><FaXTwitter size={20} /></a>
       </div>
       <div className="text-xs font-mono text-gray-800 dark:text-white text-right">
         <div>{formattedTime}</div>
@@ -235,7 +235,7 @@ export default function Footer() {
         <a href="mailto:aryan07vns@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition"><FaEnvelope size={22} /></a>
         <a href="https://github.com/anuj2810" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white transition"><FaGithub size={22} /></a>
         <a href="https://linkedin.com/in/imanuj-arya/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition"><FaLinkedin size={22} /></a>
-        <a href="https://x.com/aryan07mzp" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition"><FaXTwitter size={22} /></a>
+        <a href="https://x.com/aryan07vns" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition"><FaXTwitter size={22} /></a>
       </div>
       {/* Clock */}
       <div className="text-xs font-mono text-gray-800 dark:text-white text-right">

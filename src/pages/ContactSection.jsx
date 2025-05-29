@@ -138,7 +138,7 @@ const handleSubmit = (e) => {
               <ContactItem icon={<Mail />} text="aryan07vns@gmail.com" link="mailto:aryan07vns@gmail.com" />
               <ContactItem icon={<FaLinkedin />} text="Connect with me on LinkedIn " link="https://linkedin.com/in/imanuj-arya/" />
               <ContactItem icon={<Github />} text="GitHub Profile" link="https://github.com/anuj2810" />
-              <ContactItem icon={<FaXTwitter />} text="Connect with me on X" link="https://x.com/aryan07mzp" />
+              <ContactItem icon={<FaXTwitter />} text="Connect with me on X" link="https://x.com/aryan07vns" />
             </div>
           </motion.div>
 

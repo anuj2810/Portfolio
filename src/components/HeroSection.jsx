@@ -297,7 +297,7 @@ export default function HeroSection() {
                   When I'm not coding, I'm exploring new tech, solving DSA problems, or sharing knowledge. Let’s collaborate and build something impactful together!
                 </p>
                 <div className="flex flex-wrap justify-center gap-6 mt-8">
-                  <a href="https://x.com/aryan07mzp" target="_blank" rel="noopener noreferrer">
+                  <a href="https://x.com/aryan07vns" target="_blank" rel="noopener noreferrer">
                     <FaXTwitter className="w-7 h-7 text-blue-500 hover:text-blue-700 transition-transform duration-200 hover:scale-110 cursor-pointer" />
                   </a>
                   <a href="https://github.com/anuj2810" target="_blank" rel="noopener noreferrer">
@@ -549,7 +549,7 @@ export default function HeroSection() {
                 From problem-solving to working with cutting-edge technologies, I strive for excellence in every line of code.
               </p>
               <div className="flex flex-wrap justify-center gap-6 mt-8">
-                    <a href="https://x.com/aryan07mzp" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/aryan07vns" target="_blank" rel="noopener noreferrer">
                       <FaXTwitter className="w-7 h-7 text-blue-500 hover:text-blue-700 transition-transform duration-200 hover:scale-110 cursor-pointer" />
                     </a>
                     <a href="https://github.com/anuj2810" target="_blank" rel="noopener noreferrer">

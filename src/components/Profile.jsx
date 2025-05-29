@@ -42,7 +42,7 @@ const Profile = () => {
             <a href="https://www.linkedin.com/in/imanuj-arya" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-2xl text-gray-600 dark:text-gray-200 hover:text-indigo-600" />
             </a>
-            <a href="https://x.com/aryan07mzp" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/aryan07vns" target="_blank" rel="noopener noreferrer">
               <FaXTwitter className="text-2xl text-gray-600 dark:text-gray-200 hover:text-indigo-600" />
             </a>
           </div>
